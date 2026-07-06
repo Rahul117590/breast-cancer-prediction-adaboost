@@ -1,0 +1,9 @@
+Building the pipline 
+1. create a github repo and clone it local
+2. add src folder along with all components (run them individually)
+3. add data, models, reports, directories to .gitignore file 
+4. now git add, commit ,push
+
+5. create dvc.yaml file and add stages to it
+6. dvc init then do dvc repro to test the pipline automation 
+7. now git add and commit and push in the origin main
