@@ -120,7 +120,7 @@ def main():
         train_path=os.path.join('data','processed','train_processed.csv')
         test_path=os.path.join('data','processed','test_processed.csv')
         # we need to make the scaler path for save-scaler
-        scaler_path=os.path.join('model','scaler.pkl')
+        scaler_path=os.path.join('models','scaler.pkl')
         os.makedirs(os.path.dirname(scaler_path),exist_ok=True)
 
         #load_data

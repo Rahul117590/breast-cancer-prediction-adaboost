@@ -1,0 +1,7 @@
+#this are the basic things that reqiure in this project for run all this code
+pandas
+numpy
+scikit-learn
+joblib
+dvc
+logging
